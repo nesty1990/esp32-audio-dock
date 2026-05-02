@@ -57,12 +57,15 @@ sendspin:
 media_source:
   - platform: sendspin
     id: sendspin_source
+    task_stack_in_psram: ${task_stack_in_psram}
   - platform: http_request
     id: http_source
     buffer_size: ${media_source_buffer_size}
+    task_stack_in_psram: ${task_stack_in_psram}
   - platform: http_request
     id: http_announcement_source
     buffer_size: ${media_source_buffer_size}
+    task_stack_in_psram: ${task_stack_in_psram}
 
 media_player:
   - platform: sendspin
