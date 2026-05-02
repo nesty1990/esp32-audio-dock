@@ -9,7 +9,7 @@
 # ============================================================
 
 substitutions:
-  media_source_buffer_size: 256000
+  media_source_buffer_size: 512000
 
 external_components:
   ## Specific commits that are known to produce a working build
