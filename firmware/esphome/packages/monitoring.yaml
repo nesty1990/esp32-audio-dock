@@ -21,14 +21,14 @@ sensor:
     update_interval: 60s
     
   - platform: debug
-    # free:
-    #   name: "Heap Free"
-    # block:
-    #   name: "Heap Max Block"
-    # min_free:
-    #   name: "Heap Min Free"
-    # fragmentation:
-    #   name: "Heap Fragmentation"
+    free:
+      name: "Heap Free"
+    block:
+      name: "Heap Max Block"
+    min_free:
+      name: "Heap Min Free"
+    fragmentation:
+      name: "Heap Fragmentation"
     loop_time:
       name: "Loop Time"
     psram:
