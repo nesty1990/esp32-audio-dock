@@ -9,7 +9,7 @@
 # ============================================================
 
 debug:
-  update_interval: 10s
+  update_interval: 60s
 
 sensor:
   - platform: uptime
